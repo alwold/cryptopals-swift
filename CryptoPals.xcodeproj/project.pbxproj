@@ -25,6 +25,9 @@
 		880B163B20101D3F00E64A29 /* String+Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B163A20101D3F00E64A29 /* String+Hamming.swift */; };
 		880B163C20101EAB00E64A29 /* String+Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B163A20101D3F00E64A29 /* String+Hamming.swift */; };
 		880B163D20101EAB00E64A29 /* String+Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B163A20101D3F00E64A29 /* String+Hamming.swift */; };
+		880B163F201061ED00E64A29 /* Data+Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B163E201061ED00E64A29 /* Data+Hamming.swift */; };
+		880B16402010621800E64A29 /* Data+Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B163E201061ED00E64A29 /* Data+Hamming.swift */; };
+		880B16412010621900E64A29 /* Data+Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B163E201061ED00E64A29 /* Data+Hamming.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +64,7 @@
 		880B162A2010170300E64A29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		880B1634201017A600E64A29 /* CommonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
 		880B163A20101D3F00E64A29 /* String+Hamming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Hamming.swift"; sourceTree = "<group>"; };
+		880B163E201061ED00E64A29 /* Data+Hamming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Hamming.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 				880B1621201009AC00E64A29 /* String+Score.swift */,
 				880B1634201017A600E64A29 /* CommonFunctions.swift */,
 				880B163A20101D3F00E64A29 /* String+Hamming.swift */,
+				880B163E201061ED00E64A29 /* Data+Hamming.swift */,
 			);
 			path = CryptoPals;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				880B1635201017A600E64A29 /* CommonFunctions.swift in Sources */,
+				880B163F201061ED00E64A29 /* Data+Hamming.swift in Sources */,
 				880B160F200FBF2000E64A29 /* Data+Encoding.swift in Sources */,
 				880B161F200FF3F500E64A29 /* Data+XOR.swift in Sources */,
 				880B1608200FBEBB00E64A29 /* main.swift in Sources */,
@@ -264,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				880B16362010187900E64A29 /* CommonFunctions.swift in Sources */,
+				880B16402010621800E64A29 /* Data+Hamming.swift in Sources */,
 				880B161D200FC21100E64A29 /* Data+Encoding.swift in Sources */,
 				880B162320100E9400E64A29 /* String+Score.swift in Sources */,
 				880B1617200FBF7500E64A29 /* CryptoPalsTests.swift in Sources */,
@@ -277,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				880B162F2010172000E64A29 /* Data+Encoding.swift in Sources */,
+				880B16412010621900E64A29 /* Data+Hamming.swift in Sources */,
 				880B16302010172000E64A29 /* Data+XOR.swift in Sources */,
 				880B16372010187900E64A29 /* CommonFunctions.swift in Sources */,
 				880B162B2010170300E64A29 /* main.swift in Sources */,
