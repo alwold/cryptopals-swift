@@ -8,10 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		880B1608200FBEBB00E64A29 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B1607200FBEBB00E64A29 /* main.swift */; };
+		880B160F200FBF2000E64A29 /* Data+Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B160E200FBF2000E64A29 /* Data+Encoding.swift */; };
+		880B1617200FBF7500E64A29 /* CryptoPalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B1616200FBF7500E64A29 /* CryptoPalsTests.swift */; };
+		880B161D200FC21100E64A29 /* Data+Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B160E200FBF2000E64A29 /* Data+Encoding.swift */; };
+		880B161F200FF3F500E64A29 /* Data+XOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B161E200FF3F500E64A29 /* Data+XOR.swift */; };
+		880B1620201007E200E64A29 /* Data+XOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B161E200FF3F500E64A29 /* Data+XOR.swift */; };
+		880B1622201009AC00E64A29 /* String+Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B1621201009AC00E64A29 /* String+Score.swift */; };
+		880B162320100E9400E64A29 /* String+Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B1621201009AC00E64A29 /* String+Score.swift */; };
+		880B162B2010170300E64A29 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B162A2010170300E64A29 /* main.swift */; };
+		880B162F2010172000E64A29 /* Data+Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B160E200FBF2000E64A29 /* Data+Encoding.swift */; };
+		880B16302010172000E64A29 /* Data+XOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B161E200FF3F500E64A29 /* Data+XOR.swift */; };
+		880B16312010172000E64A29 /* String+Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B1621201009AC00E64A29 /* String+Score.swift */; };
+		880B1635201017A600E64A29 /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B1634201017A600E64A29 /* CommonFunctions.swift */; };
+		880B16362010187900E64A29 /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B1634201017A600E64A29 /* CommonFunctions.swift */; };
+		880B16372010187900E64A29 /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B1634201017A600E64A29 /* CommonFunctions.swift */; };
+		880B163B20101D3F00E64A29 /* String+Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B163A20101D3F00E64A29 /* String+Hamming.swift */; };
+		880B163C20101EAB00E64A29 /* String+Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B163A20101D3F00E64A29 /* String+Hamming.swift */; };
+		880B163D20101EAB00E64A29 /* String+Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B163A20101D3F00E64A29 /* String+Hamming.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		880B1602200FBEBB00E64A29 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		880B16262010170300E64A29 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +51,34 @@
 /* Begin PBXFileReference section */
 		880B1604200FBEBB00E64A29 /* CryptoPals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CryptoPals; sourceTree = BUILT_PRODUCTS_DIR; };
 		880B1607200FBEBB00E64A29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		880B160E200FBF2000E64A29 /* Data+Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Encoding.swift"; sourceTree = "<group>"; };
+		880B1614200FBF7500E64A29 /* CryptoPalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoPalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		880B1616200FBF7500E64A29 /* CryptoPalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPalsTests.swift; sourceTree = "<group>"; };
+		880B1618200FBF7500E64A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880B161E200FF3F500E64A29 /* Data+XOR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+XOR.swift"; sourceTree = "<group>"; };
+		880B1621201009AC00E64A29 /* String+Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Score.swift"; sourceTree = "<group>"; };
+		880B16282010170300E64A29 /* RepeatingXorEncrypt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RepeatingXorEncrypt; sourceTree = BUILT_PRODUCTS_DIR; };
+		880B162A2010170300E64A29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		880B1634201017A600E64A29 /* CommonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		880B163A20101D3F00E64A29 /* String+Hamming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Hamming.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		880B1601200FBEBB00E64A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880B1611200FBF7500E64A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880B16252010170300E64A29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				880B1606200FBEBB00E64A29 /* CryptoPals */,
+				880B1615200FBF7500E64A29 /* CryptoPalsTests */,
+				880B16292010170300E64A29 /* RepeatingXorEncrypt */,
 				880B1605200FBEBB00E64A29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				880B1604200FBEBB00E64A29 /* CryptoPals */,
+				880B1614200FBF7500E64A29 /* CryptoPalsTests.xctest */,
+				880B16282010170300E64A29 /* RepeatingXorEncrypt */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +112,30 @@
 			isa = PBXGroup;
 			children = (
 				880B1607200FBEBB00E64A29 /* main.swift */,
+				880B160E200FBF2000E64A29 /* Data+Encoding.swift */,
+				880B161E200FF3F500E64A29 /* Data+XOR.swift */,
+				880B1621201009AC00E64A29 /* String+Score.swift */,
+				880B1634201017A600E64A29 /* CommonFunctions.swift */,
+				880B163A20101D3F00E64A29 /* String+Hamming.swift */,
 			);
 			path = CryptoPals;
+			sourceTree = "<group>";
+		};
+		880B1615200FBF7500E64A29 /* CryptoPalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				880B1616200FBF7500E64A29 /* CryptoPalsTests.swift */,
+				880B1618200FBF7500E64A29 /* Info.plist */,
+			);
+			path = CryptoPalsTests;
+			sourceTree = "<group>";
+		};
+		880B16292010170300E64A29 /* RepeatingXorEncrypt */ = {
+			isa = PBXGroup;
+			children = (
+				880B162A2010170300E64A29 /* main.swift */,
+			);
+			path = RepeatingXorEncrypt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +158,40 @@
 			productReference = 880B1604200FBEBB00E64A29 /* CryptoPals */;
 			productType = "com.apple.product-type.tool";
 		};
+		880B1613200FBF7500E64A29 /* CryptoPalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880B1619200FBF7500E64A29 /* Build configuration list for PBXNativeTarget "CryptoPalsTests" */;
+			buildPhases = (
+				880B1610200FBF7500E64A29 /* Sources */,
+				880B1611200FBF7500E64A29 /* Frameworks */,
+				880B1612200FBF7500E64A29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoPalsTests;
+			productName = CryptoPalsTests;
+			productReference = 880B1614200FBF7500E64A29 /* CryptoPalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		880B16272010170300E64A29 /* RepeatingXorEncrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880B162C2010170300E64A29 /* Build configuration list for PBXNativeTarget "RepeatingXorEncrypt" */;
+			buildPhases = (
+				880B16242010170300E64A29 /* Sources */,
+				880B16252010170300E64A29 /* Frameworks */,
+				880B16262010170300E64A29 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RepeatingXorEncrypt;
+			productName = RepeatingXorEncrypt;
+			productReference = 880B16282010170300E64A29 /* RepeatingXorEncrypt */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +203,14 @@
 				ORGANIZATIONNAME = "Al Wold";
 				TargetAttributes = {
 					880B1603200FBEBB00E64A29 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					880B1613200FBF7500E64A29 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					880B16272010170300E64A29 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -111,16 +229,59 @@
 			projectRoot = "";
 			targets = (
 				880B1603200FBEBB00E64A29 /* CryptoPals */,
+				880B1613200FBF7500E64A29 /* CryptoPalsTests */,
+				880B16272010170300E64A29 /* RepeatingXorEncrypt */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		880B1612200FBF7500E64A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		880B1600200FBEBB00E64A29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880B1635201017A600E64A29 /* CommonFunctions.swift in Sources */,
+				880B160F200FBF2000E64A29 /* Data+Encoding.swift in Sources */,
+				880B161F200FF3F500E64A29 /* Data+XOR.swift in Sources */,
 				880B1608200FBEBB00E64A29 /* main.swift in Sources */,
+				880B163B20101D3F00E64A29 /* String+Hamming.swift in Sources */,
+				880B1622201009AC00E64A29 /* String+Score.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880B1610200FBF7500E64A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880B16362010187900E64A29 /* CommonFunctions.swift in Sources */,
+				880B161D200FC21100E64A29 /* Data+Encoding.swift in Sources */,
+				880B162320100E9400E64A29 /* String+Score.swift in Sources */,
+				880B1617200FBF7500E64A29 /* CryptoPalsTests.swift in Sources */,
+				880B163C20101EAB00E64A29 /* String+Hamming.swift in Sources */,
+				880B1620201007E200E64A29 /* Data+XOR.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880B16242010170300E64A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880B162F2010172000E64A29 /* Data+Encoding.swift in Sources */,
+				880B16302010172000E64A29 /* Data+XOR.swift in Sources */,
+				880B16372010187900E64A29 /* CommonFunctions.swift in Sources */,
+				880B162B2010170300E64A29 /* main.swift in Sources */,
+				880B163D20101EAB00E64A29 /* String+Hamming.swift in Sources */,
+				880B16312010172000E64A29 /* String+Score.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +414,54 @@
 			};
 			name = Release;
 		};
+		880B161A200FBF7500E64A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 92NQLRQ9J6;
+				INFOPLIST_FILE = CryptoPalsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.trusona.com.CryptoPalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		880B161B200FBF7500E64A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 92NQLRQ9J6;
+				INFOPLIST_FILE = CryptoPalsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.trusona.com.CryptoPalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		880B162D2010170300E64A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92NQLRQ9J6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		880B162E2010170300E64A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92NQLRQ9J6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -270,6 +479,24 @@
 			buildConfigurations = (
 				880B160C200FBEBB00E64A29 /* Debug */,
 				880B160D200FBEBB00E64A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880B1619200FBF7500E64A29 /* Build configuration list for PBXNativeTarget "CryptoPalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880B161A200FBF7500E64A29 /* Debug */,
+				880B161B200FBF7500E64A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880B162C2010170300E64A29 /* Build configuration list for PBXNativeTarget "RepeatingXorEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880B162D2010170300E64A29 /* Debug */,
+				880B162E2010170300E64A29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
