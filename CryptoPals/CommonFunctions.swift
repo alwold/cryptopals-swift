@@ -42,3 +42,34 @@ func findEncrypted() throws {
   decryptXor(hexStrings: lines.map { substring in return String(substring)})
   
 }
+
+func findKeySize(data: Data) -> Int {
+  var lowestRank: Int? = nil
+  var bestSize: Int? = nil
+  for keySize in 2...40 {
+    var firstN = Data()
+    firstN.append(data[0..<keySize])
+    var secondN = Data()
+    secondN.append(data[keySize..<keySize*2])
+    let rank = firstN.hammingDistance(to: secondN) / keySize
+    if lowestRank == nil || lowestRank! > rank {
+      lowestRank = rank
+      bestSize = keySize
+    }
+  }
+  return bestSize!
+}
+
+func transpose(data: Data, keySize: Int) -> [Data] {
+  var blocks = [Data]()
+  for keyIndex in 0..<keySize {
+    var block = Data()
+    var position = keyIndex
+    while position < data.count {
+      block.append(data[position])
+      position += keySize
+    }
+    blocks.append(block)
+  }
+  return blocks
+}

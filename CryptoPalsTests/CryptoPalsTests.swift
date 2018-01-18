@@ -74,6 +74,15 @@ class CryptoPalsTests: XCTestCase {
     let string2 = "wokka wokka!!!"
     XCTAssertEqual(string1.hammingDistance(to: string2), 37)
   }
+  
+  func testTranspose() {
+    let data = Data(bytes: [0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09])
+    let blocks = transpose(data: data, keySize: 3)
+    XCTAssertEqual(blocks.count, 3)
+    XCTAssertEqual(blocks[0], Data(bytes: [0x00, 0x03, 0x06, 0x09]))
+    XCTAssertEqual(blocks[1], Data(bytes: [0x01, 0x04, 0x07]))
+    XCTAssertEqual(blocks[2], Data(bytes: [0x02, 0x05, 0x08]))
+  }
     
 
 }
